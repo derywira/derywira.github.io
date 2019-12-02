@@ -1,0 +1,37 @@
+.Kepala {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5dfdf;
+    padding: 15px;
+}
+.Kepala_Judul {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: black;
+    flex: 1;
+    text-transform: uppercase;
+}
+.Konten {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #357376;
+    margin-top: 10px;
+    padding: 10px;
+}
+.Konten_Span {
+    padding: 15px 20px;
+    color: white;
+    background-color: #6ba8a9;
+    margin-bottom: 10px;
+}
+.Konten_Span_Tutup {
+    padding: 0px 20px;
+    position: absolute;
+    right: 10px; 
+    color: red;
+}
+.Konten_none {
+    display: none;
+}
