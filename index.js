@@ -14,7 +14,7 @@ function add_value() {
         span.appendChild(spantutup);
         
         spantutup.addEventListener("click", function () {
-            span.classList.add("Konten_None");
+            span.classList.add("Konten_none");
         });
 
         let konten = document.getElementById("Konten");
