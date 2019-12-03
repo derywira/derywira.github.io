@@ -35,3 +35,9 @@
 .Konten_none {
     display: none;
 }
+.Kepala_Masuk_Kontainer {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
